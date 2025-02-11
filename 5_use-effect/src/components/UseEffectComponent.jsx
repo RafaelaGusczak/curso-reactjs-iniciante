@@ -19,7 +19,7 @@ const UseEffectComponent = () => {
     // com dependências
     useEffect(() => {
         console.log("Rodou UE3")
-    }, [count])
+    }, [count, count2])
 
     return (
         <div>
